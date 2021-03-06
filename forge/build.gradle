@@ -13,6 +13,9 @@ architectury {
 
 loom {
     useFabricMixin = true
+
+    // List of mixin file names. ex: "examplemod.mixin.json"
+    mixinConfigs = []
 }
 
 dependencies {
