@@ -1,6 +1,6 @@
-package net.examplemod.fabric;
+package net.dodogang.examplemod.fabric;
 
-import net.examplemod.ExampleMod;
+import net.dodogang.examplemod.ExampleMod;
 import net.fabricmc.api.ModInitializer;
 
 public class ExampleModFabric implements ModInitializer {

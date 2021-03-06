@@ -5,18 +5,18 @@
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Dodo Gang"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://dodogang.net",
+    "sources": "https://github.com/dodogang/architectury-example-mod"
   },
   "license": "Insert License Here",
   "icon": "assets/examplemod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "net.dodogang.examplemod.fabric.ExampleModFabric"
     ]
   },
   "depends": {
