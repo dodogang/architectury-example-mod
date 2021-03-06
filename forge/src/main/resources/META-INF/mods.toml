@@ -1,12 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/dodogang/architectury-example-mod/issues"
 license = "Insert License Here"
 
 [[mods]]
 modId = "examplemod"
 version = "${version}"
 displayName = "Example Mod"
+#updateJSONURL = ""
+displayURL = "https://github.com/dodogang/architectury-example-mod"
+#credits = ""
 authors = "Dodo Gang"
 description = '''
 This is an example description! Tell everyone what your mod is about!
