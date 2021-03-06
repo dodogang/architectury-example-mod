@@ -15,12 +15,6 @@ loom {
     useFabricMixin = true
 }
 
-repositories {
-    // JEI maven repositories
-    maven { url = "https://dvs1.progwml6.com/files/maven/" }
-    maven { url = "https://modmaven.k-4u.nl" }
-}
-
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
 
