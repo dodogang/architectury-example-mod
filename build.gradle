@@ -39,10 +39,7 @@ allprojects {
         // Mod Menu Maven
         maven { url = "https://maven.terraformersmc.com/releases/" }
 
-        // JEI Maven
-        maven { url = "https://dvs1.progwml6.com/files/maven/" }
-
-        // Mod Maven Maven (JEI backup)
+        // Mod Maven
         maven { url = "https://modmaven.k-4u.nl" }
     }
 

@@ -21,6 +21,8 @@ loom {
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
 
+    modApi "net.dodogang.plume:plume-forge:${rootProject.plume_version}"
+
     implementation(project(path: ":common")) {
         transitive = false
     }
