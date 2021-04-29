@@ -1,6 +1,6 @@
 package net.dodogang.examplemod;
 
-import net.dodogang.plume.ash.registry.BatchedRegister;
+import net.dodogang.plume.ash.registry.RegistryBatch;
 import net.dodogang.plume.ash.registry.RegistrySupplier;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -16,8 +16,8 @@ public class ModBlocks {
     public static RegistrySupplier<Block> EXAMPLE_BLOCK;
 
     public static void register() {
-        BatchedRegister<Block> blockRegister = BatchedRegister.create(Registry.BLOCK_KEY, ExampleMod.MOD_ID);
-        BatchedRegister<Item> itemRegister = BatchedRegister.create(Registry.ITEM_KEY, ExampleMod.MOD_ID);
+        RegistryBatch<Block> blockRegister = RegistryBatch.create(Registry.BLOCK_KEY, ExampleMod.MOD_ID);
+        RegistryBatch<Item> itemRegister = RegistryBatch.create(Registry.ITEM_KEY, ExampleMod.MOD_ID);
 
         TEST_BLOCK = blockRegister.add("test_block", new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
         itemRegister.add("test_block", new BlockItem(TEST_BLOCK.getInitialValue(), new Item.Settings().group(ExampleMod.ITEM_GROUP)));
