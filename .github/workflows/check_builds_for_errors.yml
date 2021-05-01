@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           distribution: adopt
-          java-version: 1.8
+          java-version: ${{ matrix.java }}
       - name: Make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
