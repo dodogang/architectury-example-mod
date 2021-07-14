@@ -36,9 +36,13 @@ allprojects {
     group = rootProject.maven_group
 
     repositories {
+//        maven {
+//            name = "Mod Menu Maven"
+//            url = "https://maven.terraformersmc.com/releases/"
+//        }
         maven {
-            name = "Mod Menu Maven"
-            url = "https://maven.terraformersmc.com/releases/"
+            name = "Mod Menu Backup Maven"
+            url = "https://raw.githubusercontent.com/TerraformersMC/Archive/main/releases/"
         }
         maven {
             name = "Dodo Gang Maven Repo"
